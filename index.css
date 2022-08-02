@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navName {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.nav {
+    background-color: lightblue;
+}
+
+.card {
+
+    width: 140px;
+    height: 140px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.middle {
+
+    background-image: url("background.jpg");
+    height: 800px;
+}
+
+
+/* .row {
+    text-align: center;
+    margin-left: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 56px;
+    margin-top: 30px;
+    margin-left: 150px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 300px;
+    width: 300px;
+}
