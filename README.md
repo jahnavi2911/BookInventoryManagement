@@ -8,6 +8,7 @@ Book Inventory Management Project
 3.JAVASCRIPT
 4.PHP
 5.MYSQL
+6.Bootstrap
 
 
 #Assumptions:
